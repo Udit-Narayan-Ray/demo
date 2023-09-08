@@ -24,7 +24,8 @@ public class App
     	SessionFactory sf=con.buildSessionFactory();
     	Session session=sf.openSession();
     	Transaction  tran=session.beginTransaction();
-    	session.save(m);
+    	session.save(n);
+    	
     	tran.commit();
     }
 }
