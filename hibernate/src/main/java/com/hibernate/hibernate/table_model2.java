@@ -13,5 +13,13 @@ public class table_model2 {
 	{
 		return this.slno;
 	}
+	public void setName(String name)
+	{
+		this.name=name;
+	}
+	public String getName()
+	{
+		return this.name;
+	}
 
 }
