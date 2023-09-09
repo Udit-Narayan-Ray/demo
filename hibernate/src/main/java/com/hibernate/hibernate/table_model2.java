@@ -4,6 +4,7 @@ public class table_model2 {
 
 	private int slno;
 	private String name;
+<<<<<<< HEAD
 	
 	public void setSlno(int slno)
 	{
@@ -21,5 +22,7 @@ public class table_model2 {
 	{
 		return this.name;
 	}
+=======
+>>>>>>> parent of 6ce0fc4 (added get set for the slno in table 2 class)
 
 }
