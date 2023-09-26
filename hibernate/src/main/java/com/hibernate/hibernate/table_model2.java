@@ -1,24 +1,26 @@
 package com.hibernate.hibernate;
 
-public class table_model2 implements First_inter, Second_inter 
-{
+public class table_model2 {
 
 	private int slno;
 	private String name;
+	
 	public void setSlno(int slno)
 	{
 		this.slno=slno;
 	}
-	
-	public void first()
+	public int getSlno()
 	{
-	System.out.println("this is parent first implementation");	
+		return this.slno;
 	}
-	public void second() {
-		System.out.println("this is parent second implementation");
+	public void setName(String name)
+	{
+		this.name=name;
 	}
-	public void third() {
-		System.out.println("this is parent third implementation");
+	public String getName()
+	{
+		return this.name;
 	}
+
 
 }
